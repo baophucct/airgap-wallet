@@ -3,11 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "build": "tsc && webpack"
+    "build": "tsc && webpack",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "web3": "^1.0.0-beta.36",
-    "web3-provider-engine": "^14.0.6"
+    "web3-provider-engine": "^14.0.6",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "raw-loader": "^0.5.1",
@@ -16,5 +19,6 @@
     "typescript": "^3.2.2",
     "webpack": "^4.17.3",
     "webpack-cli": "^3.3.1"
-  }
+  },
+  "snyk": true
 }
