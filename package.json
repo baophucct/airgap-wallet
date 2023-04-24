@@ -78,7 +78,7 @@
     "chart.js": "^2.8.0",
     "com.lampa.startapp": "^6.1.6",
     "cordova-android": "7.1.4",
-    "cordova-android-support-gradle-release": "^1.4.7",
+    "cordova-android-support-gradle-release": "^3.0.0",
     "cordova-clipboard": "^1.2.1",
     "cordova-ios": "5.0.1",
     "cordova-plugin-add-swift-support": "^1.7.2",
